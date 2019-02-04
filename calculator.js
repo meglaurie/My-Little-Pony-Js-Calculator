@@ -72,13 +72,17 @@ function backspace(){
 function clearScreen(){
   document.getElementById('input').value = "";
   document.getElementById('answer').value = "";
+  document.getElementById('input').style.display = "inline-block";
+  document.getElementById('answer').style.display = "none";
 }
 
 // Compute
 function compute(){
   var input_var = document.getElementById('input');
   ans = Math.floor(+eval(input_var.value));
-  document.getElementById('answer').value = "=" + ans;
+    document.getElementById('answer').style.display = "inline-block";
+  document.getElementById('answer').value = ans;
+  document.getElementById('input').style.display = "none";
 
 }
 

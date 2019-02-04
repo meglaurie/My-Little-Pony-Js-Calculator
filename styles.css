@@ -29,7 +29,7 @@ body{
 
 .display{
   width: 400px;
-  height: 140px;
+  height: 115px;
   background: white;
   margin: 40px auto;
   margin-top: 0px;
@@ -51,7 +51,6 @@ body{
 
 .Zbtn{
   width: 200px;
-
 }
 
 .container{
@@ -109,7 +108,6 @@ p{
 
 .mlpContainer{
   display: inline-block;
-
   position: relative;
   z-index: 99;
 }
@@ -117,14 +115,19 @@ p{
 #input{
   /* z-index: 99;
   position: relative; */
-  margin-top: 15px;
 }
+
+#answer{
+  display: none;
+}
+
 .input{
-  font-size: 45px;
+  font-size: 60px;
   color: #ff007f;
   border: none;
   width: 97%;
   text-align: right;
+  margin-top: 20px;
 }
 
 input::placeholder {
