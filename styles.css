@@ -121,10 +121,14 @@ p{
 }
 .input{
   font-size: 45px;
-  color: black;
+  color: #ff007f;
   border: none;
   width: 97%;
   text-align: right;
+}
+
+input::placeholder {
+  color: #ff007f;
 }
 
 button:focus {

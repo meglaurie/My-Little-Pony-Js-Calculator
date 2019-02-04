@@ -81,3 +81,8 @@ function compute(){
   document.getElementById('answer').value = "=" + ans;
 
 }
+
+// Brackets
+
+
+// decimal
