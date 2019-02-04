@@ -1,0 +1,116 @@
+body{
+  /* background-image: linear-gradient(45deg, rgb(244, 66, 116), rgb(244, 241, 65)); */
+  /* background-image: url('imgs/lightPink.jpg');
+  background-position: center;
+  background-size: cover; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: #891d91; */
+  background-image: linear-gradient(45deg, rgb(137, 29, 145), rgb(193, 46, 87));
+}
+
+.calc-body{
+  width: 550px;
+  background-image: url('imgs/PinkSparkleGif.gif');
+  /* background: #ff007f; */
+  background-position: center;
+  background-size: contain;
+  /* display: inline-block; */
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  padding: 25px;
+  padding-top: 0px;
+  z-index: -1;
+
+}
+
+.display{
+  width: 400px;
+  height: 100px;
+  background: white;
+  margin: 40px auto;
+  margin-top: 0px;
+
+}
+
+.btn{
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  margin: 10px;
+  border-radius: 50px;
+  background: #ff007f;
+  /* background-image: url('lightPink.jpg'); */
+  background-position: center;
+  background-size: cover;
+
+}
+
+.Zbtn{
+  width: 200px;
+
+}
+
+.container{
+  margin-top: 40px;
+}
+
+.subcontainer{
+    margin: 0 auto;
+    padding-left: 9%;
+}
+
+p{
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 40px;
+  margin: 0px;
+  margin-top: 25px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.mlpLogo{
+    width: 230px;
+    height: 210px;
+    background-image: url('imgs/MyLittlePonyLogo.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    top: 49px;
+
+}
+
+.mlpPink{
+  width: 150px;
+  height: 200px;
+  background-image: url('imgs/MyLittlePonyPink.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  top: 25px;
+}
+.mlpPurple{
+  width: 150px;
+  height: 200px;
+  background-image: url('imgs/MyLittlePonyPurple.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  top: 20px;
+}
+
+.mlpContainer{
+  display: inline-block;
+
+  position: relative;
+  z-index: 99;
+}
