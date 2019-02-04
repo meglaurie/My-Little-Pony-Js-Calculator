@@ -29,7 +29,7 @@ body{
 
 .display{
   width: 400px;
-  height: 100px;
+  height: 140px;
   background: white;
   margin: 40px auto;
   margin-top: 0px;
@@ -68,7 +68,6 @@ p{
   text-align: center;
   font-size: 40px;
   margin: 0px;
-  margin-top: 25px;
   font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 
@@ -113,4 +112,21 @@ p{
 
   position: relative;
   z-index: 99;
+}
+
+#input{
+  /* z-index: 99;
+  position: relative; */
+  margin-top: 15px;
+}
+.input{
+  font-size: 45px;
+  color: black;
+  border: none;
+  width: 97%;
+  text-align: right;
+}
+
+button:focus {
+  outline:0;
 }
