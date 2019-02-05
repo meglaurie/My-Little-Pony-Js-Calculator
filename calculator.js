@@ -56,6 +56,9 @@ function getOperand(operand){
     case '+/-':
         input_var.value += "-" + input_var.value;
         break;
+    case '.':
+        input_var.value += ".";
+        break;
   }
 
 }
@@ -79,7 +82,7 @@ function clearScreen(){
 // Compute
 function compute(){
   var input_var = document.getElementById('input');
-  ans = Math.floor(+eval(input_var.value));
+  ans = Math.abs(+eval(input_var.value));
     document.getElementById('answer').style.display = "inline-block";
   document.getElementById('answer').value = ans;
   document.getElementById('input').style.display = "none";
