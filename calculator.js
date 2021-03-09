@@ -82,12 +82,51 @@ function clearScreen(){
 // Compute
 function compute(){
   var input_var = document.getElementById('input');
+  console.log(document.getElementById('input').value);
   ans = Math.abs(+eval(input_var.value));
     document.getElementById('answer').style.display = "inline-block";
   document.getElementById('answer').value = ans;
   document.getElementById('input').style.display = "none";
 
+  console.log(typeof input_var);
+  console.log(Object.values(input_var));
 }
+
+
+
+function add (a, b) {
+	return a + b;
+}
+
+function subtract (a,b) {
+	return a - b;
+}
+
+function sum () {
+	
+}
+
+function multiply (a,b) {
+	return a * b;
+}
+
+function power() {
+	
+}
+
+function factorial(a, b) {
+	return a % b;
+}
+
+// module.exports = {
+// 	add,
+// 	subtract,
+// 	sum,
+// 	multiply,
+//     power,
+// 	factorial
+// }
+
 
 // Brackets
 
